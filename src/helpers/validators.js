@@ -46,7 +46,7 @@ const hasAtLeastNColorShapes = curry(
 
 // Функция для проверки, что количество фигур с определенным цветом равно указанному числу
 const hasExactlyNColorShapes = curry(
-  (n, color, shapes) => countColorShapes(color, shapes) == n
+  (n, color, shapes) => countColorShapes(color, shapes) === n
 );
 
 // Специализированная функция для проверки, что количество фигур определенного цвета больше или равно 3
